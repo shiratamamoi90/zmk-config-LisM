@@ -16,10 +16,36 @@
 | `lism_right_central_trackball_studio.uf2`     | 右側 セントラル トラックボール (ZMK Studio 対応)   |
 | `settings_reset-seeeduino_xiao_ble-zmk.uf2`   | 設定リセット用                        |
 
-## ローカルビルド手順
+## ビルド手順
 
-GitHub Actionsでのビルドは毎回2分-3分かかりますが、ローカル環境では40秒〜1分で完了します。(PCスペックによって前後します)  
-キーマップの変更など、少し試したいだけでも時間がかかるActionsに比べ、ローカルビルドなら素早く試行錯誤ができます。
+### ローカル
+
+※参照元 [https://github.com/4mplelab/zmk-config-LisM]
+
+ローカル環境でのビルド手順
+
+1. 準備
+   1. git をインストール
+   2. Docker をインストール
+
+2. 任意のディレクトリにこのリポジトリをclone
+
+3. cloneしたディレクトリに移動
+
+4. ビルド
+   1. **初回の場合、setupLisM.sh を起動**
+      ```bash
+      $zmk-config-LisM ./setupLism.sh
+      ```
+   2. **２回目以降の場合、changeLisM.sh を起動**
+      ```bash
+      $zmk-config-LisM ./changeLism.sh
+      ```
+5. ダウンロードフォルダに格納されている
+
+### Keymap EditorでのGithubAction
+
+リンク [https://nickcoutsos.github.io/keymap-editor/]
 
 ### 必要なもの
 - [Visual Studio Code](https://code.visualstudio.com/)
