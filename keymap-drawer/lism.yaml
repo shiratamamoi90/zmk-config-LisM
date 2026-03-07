@@ -54,18 +54,18 @@ layers:
   - '&mkp MB4'
   - '&mkp MB5'
   - Gui+RIGHT ARROW
-  - '&DoubleCtrl'
-  - '&DoubleCtrl'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&DoubleAlt'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Ctl+T
   - '&mkp MB3'
   - '&mkp MB1'
   - '&mkp MB2'
   - Ctl+W
-  - '&DoubleCtrl'
-  - '&DoubleCtrl'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+Sft+S
