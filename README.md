@@ -32,7 +32,9 @@
 
 3. cloneしたディレクトリに移動
 
-4. ビルド
+4. config/west.yml の name: zmk-rgbled-widget > revision を「v0.3」に変更
+
+5. ビルド
    1. **初回の場合、setupLisM.sh を起動**
       ```bash
       $zmk-config-LisM ./setupLism.sh
@@ -41,7 +43,7 @@
       ```bash
       $zmk-config-LisM ./changeLism.sh
       ```
-5. ダウンロードフォルダに格納されている
+6. ダウンロードフォルダに格納されている
 
 ### Keymap EditorでのGithubAction
 
