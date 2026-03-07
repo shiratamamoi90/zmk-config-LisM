@@ -76,10 +76,10 @@
         layer_1 {
             display-name = "Mouse Layer";
             bindings = <
-&trans       &trans       &trans  &trans  &trans                                           &kp LG(LEFT_ARROW)  &trans          &mkp MB4        &mkp MB5         &kp LG(RIGHT_ARROW)
-&DoubleCtrl  &DoubleCtrl  &trans  &trans  &DoubleAlt                                       &kp LC(T)           &mkp MB3        &mkp MB1        &mkp MB2         &kp LC(W)
-&DoubleCtrl  &DoubleCtrl  &trans  &trans  &kp LG(LS(S))                                    &kp RC(PG_UP)       &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp RC(PAGE_DOWN)
-&trans       &trans       &trans  &trans  &kp LEFT_WIN   &kp LG(LA(SPACE))    &kp LG(TAB)  &kp RIGHT_WIN       &trans          &kp DOWN_ARROW  &trans           &trans
+&trans  &trans  &trans  &trans  &trans                                           &kp LG(LEFT_ARROW)  &trans          &mkp MB4        &mkp MB5         &kp LG(RIGHT_ARROW)
+&trans  &trans  &trans  &trans  &trans                                           &kp LC(T)           &mkp MB3        &mkp MB1        &mkp MB2         &kp LC(W)
+&trans  &trans  &trans  &trans  &kp LG(LS(S))                                    &kp RC(PG_UP)       &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp RC(PAGE_DOWN)
+&trans  &trans  &trans  &trans  &kp LEFT_WIN   &kp LG(LA(SPACE))    &kp LG(TAB)  &kp RIGHT_WIN       &trans          &kp DOWN_ARROW  &trans           &trans
             >;
 
             sensor-bindings = <&encoder_kp C_VOL_UP C_VOL_DN>;
