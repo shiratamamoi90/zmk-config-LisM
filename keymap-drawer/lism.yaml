@@ -11,16 +11,16 @@ layers:
   - I
   - O
   - P
-  - A
-  - {t: S, h: LALT}
+  - {t: A, h: LCTRL}
+  - {t: S, h: LCTRL}
   - {t: D, h: LSHIFT}
-  - {t: F, h: LGUI}
-  - {t: G, h: LCTRL}
-  - {t: H, h: RCTRL}
-  - {t: J, h: RGUI}
+  - {t: F, h: LEFT SHIFT}
+  - {t: G, h: LEFT ALT}
+  - {t: H, h: RIGHT ALT}
+  - {t: J, h: LEFT SHIFT}
   - {t: K, h: RSHIFT}
-  - {t: L, h: RALT}
-  - {t: ;, h: Mark Layer}
+  - {t: L, h: LCTRL}
+  - {t: ;, h: RCTRL}
   - Z
   - X
   - C
@@ -30,104 +30,104 @@ layers:
   - M
   - ','
   - .
-  - /
-  - {t: DEL, h: Device Layer}
-  - {t: Mouse Layer, h: toggle}
+  - '-'
+  - {t: ESC, h: Device Layer}
   - {t: TAB, h: Mouse Layer}
+  - {t: CAPSLOCK, h: Mouse Layer}
   - Sft+Gui+4
   - {t: SPACE, h: Number Layer}
-  - {t: ESC, h: Mark Layer}
-  - {t: BS, h: Mark Layer}
-  - {t: ENTER, h: Number Layer}
+  - {t: Alt+`, h: Mark Layer}
+  - {t: ENTER, h: Mark Layer}
+  - {t: BS, h: Number Layer}
   - Sft+Gui+4
   - F7
   - F10
-  - {t: F12, h: Device Layer}
+  - {t: DEL, h: Device Layer}
   Mouse Layer:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - SPACE
-  - Gui+←
-  - Gui+→
-  - '&mkp MB3'
+  - Gui+LEFT ARROW
   - {t: ▽, type: trans}
+  - '&mkp MB4'
+  - '&mkp MB5'
+  - Gui+RIGHT ARROW
   - '&mkp MB5'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+↑
+  - '&DoubleCtrl'
+  - Ctl+T
+  - '&mkp MB3'
   - '&mkp MB1'
   - '&mkp MB2'
-  - '&msc SCRL_UP'
-  - '&msc SCRL_DOWN'
+  - Ctl+W
   - '&mkp MB4'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+↓
-  - ←
-  - ↑
-  - →
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+Sft+S
+  - Ctl+PG UP
+  - LEFT ARROW
+  - UP ARROW
+  - RIGHT ARROW
+  - Ctl+PAGE DOWN
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - LEFT WIN
+  - Gui+Alt+SPACE
+  - Gui+TAB
+  - RIGHT WIN
+  - {t: ▽, type: trans}
+  - DOWN ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ↓
-  - {t: ▽, type: trans}
-  - Gui+W
   Number Layer:
-  - {t: ▽, type: trans}
+  - KP NUMLOCK
   - '7'
   - '8'
   - '9'
   - '='
-  - F1
-  - F2
+  - Gui+LEFT ARROW
   - F7
-  - F10
-  - RSHIFT
-  - '*'
-  - {t: '4', h: LALT}
+  - F8
+  - F9
+  - Gui+RIGHT ARROW
+  - {t: '*', h: LEFT ALT}
+  - {t: '4', h: LEFT SHIFT}
   - {t: '5', h: LSHIFT}
-  - {t: '6', h: LGUI}
+  - {t: '6', h: LCTRL}
   - {t: '-', h: LCTRL}
-  - '&mkp MB1'
-  - ←
-  - ↑
-  - →
-  - RGUI
+  - {t: Ctl+T, h: RCTRL}
+  - {t: F4, h: RCTRL}
+  - {t: F5, h: RIGHT SHIFT}
+  - {t: F6, h: RIGHT SHIFT}
+  - {t: Ctl+W, h: RIGHT ALT}
   - /
   - '1'
   - '2'
   - '3'
   - +
-  - '&mkp MB2'
-  - ''
-  - ↓
-  - ''
-  - RALT
-  - {t: ▽, type: trans}
-  - .
+  - Ctl+PG UP
+  - F1
+  - F2
+  - F3
+  - Ctl+PAGE DOWN
+  - PERIOD
+  - '0'
   - '0'
   - {t: ▽, type: trans}
-  - {t: LANG2, type: held}
+  - {t: SPACE, type: held}
+  - '`'
+  - ENTER
+  - BS
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LANG1
-  - {t: ▽, type: trans}
-  - Sft+Ctl+TAB
-  - Ctl+TAB
+  - F11
+  - F10
   - F12
   Mark Layer:
   - Sft+Gui+4
@@ -135,43 +135,43 @@ layers:
   - (
   - )
   - ''
-  - '~'
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '&emoji'
+  - '&'
+  - '*'
+  - '-'
+  - '='
+  - NON US BACKSLASH
+  - '&DoubleCtrl'
   - F5
   - '['
   - ']'
   - ''
-  - '`'
-  - _
-  - ''''
-  - '"'
-  - {t: \, type: held}
+  - $
+  - '%'
+  - ^
+  - /
+  - QUESTION
   - KP NUMLOCK
   - F11
   - '{'
   - '}'
   - ''
-  - '|'
-  - '%'
-  - ^
-  - '&'
-  - '*'
+  - '!'
+  - '@'
+  - '#'
+  - LESS THAN
+  - GREATER THAN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
   - SPACE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '`', type: held}
   - ENTER
+  - BS
   - {t: ▽, type: trans}
   - ''
-  - ''
-  - F12
+  - ','
+  - PERIOD
   Device Layer:
   - ''
   - ''
