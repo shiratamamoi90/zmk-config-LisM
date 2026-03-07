@@ -21,16 +21,16 @@ layers:
   - {t: K, h: RSHIFT}
   - {t: L, h: LCTRL}
   - {t: ;, h: RCTRL}
-  - Z
-  - X
-  - C
-  - V
+  - {t: Z, h: LCTRL}
+  - {t: X, h: LCTRL}
+  - {t: C, h: LEFT SHIFT}
+  - {t: V, h: LEFT SHIFT}
   - B
   - N
-  - M
-  - ','
-  - .
-  - '-'
+  - {t: M, h: RIGHT SHIFT}
+  - {t: ',', h: RIGHT SHIFT}
+  - {t: ., h: RCTRL}
+  - {t: '-', h: RCTRL}
   - {t: ESC, h: Device Layer}
   - {t: TAB, h: Mouse Layer}
   - {t: CAPSLOCK, h: Mouse Layer}
@@ -54,18 +54,18 @@ layers:
   - '&mkp MB4'
   - '&mkp MB5'
   - Gui+RIGHT ARROW
-  - '&mkp MB5'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '&DoubleCtrl'
+  - '&DoubleCtrl'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&DoubleAlt'
   - Ctl+T
   - '&mkp MB3'
   - '&mkp MB1'
   - '&mkp MB2'
   - Ctl+W
-  - '&mkp MB4'
-  - {t: ▽, type: trans}
+  - '&DoubleCtrl'
+  - '&DoubleCtrl'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+Sft+S
@@ -97,16 +97,16 @@ layers:
   - F8
   - F9
   - Gui+RIGHT ARROW
-  - {t: '*', h: LEFT ALT}
-  - {t: '4', h: LEFT SHIFT}
+  - {t: '*', h: LCTRL}
+  - {t: '4', h: LCTRL}
   - {t: '5', h: LSHIFT}
-  - {t: '6', h: LCTRL}
-  - {t: '-', h: LCTRL}
-  - {t: Ctl+T, h: RCTRL}
-  - {t: F4, h: RCTRL}
+  - {t: '6', h: LEFT SHIFT}
+  - {t: '-', h: LEFT ALT}
+  - {t: Ctl+T, h: RIGHT ALT}
+  - {t: F4, h: RIGHT SHIFT}
   - {t: F5, h: RIGHT SHIFT}
-  - {t: F6, h: RIGHT SHIFT}
-  - {t: Ctl+W, h: RIGHT ALT}
+  - {t: F6, h: RCTRL}
+  - {t: Ctl+W, h: RCTRL}
   - /
   - '1'
   - '2'
@@ -122,7 +122,7 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: SPACE, type: held}
-  - '`'
+  - Alt+`
   - ENTER
   - BS
   - {t: ▽, type: trans}
@@ -130,42 +130,42 @@ layers:
   - F10
   - F12
   Mark Layer:
-  - Sft+Gui+4
-  - F4
-  - (
-  - )
-  - ''
+  - KP NUM
+  - {t: ▽, type: trans}
+  - KP 7
+  - KP 8
+  - KP 9
   - '&'
   - '*'
   - '-'
   - '='
   - NON US BACKSLASH
-  - '&DoubleCtrl'
-  - F5
-  - '['
-  - ']'
-  - ''
+  - (
+  - )
+  - KP 4
+  - KP 5
+  - KP 6
   - $
   - '%'
   - ^
   - /
   - QUESTION
-  - KP NUMLOCK
-  - F11
   - '{'
   - '}'
-  - ''
+  - KP 1
+  - KP 2
+  - KP 3
   - '!'
   - '@'
   - '#'
   - LESS THAN
   - GREATER THAN
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '0'
+  - '['
+  - ']'
+  - KP 0
   - {t: ▽, type: trans}
   - SPACE
-  - {t: '`', type: held}
+  - {t: Sft+`, type: held}
   - ENTER
   - BS
   - {t: ▽, type: trans}
