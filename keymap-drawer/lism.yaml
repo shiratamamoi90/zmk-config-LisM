@@ -54,11 +54,11 @@ layers:
   - '&mkp MB4'
   - '&mkp MB5'
   - Gui+RIGHT ARROW
+  - LCTRL
+  - LCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT ALT
   - Ctl+T
   - '&mkp MB3'
   - '&mkp MB1'
