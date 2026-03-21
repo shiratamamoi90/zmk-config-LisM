@@ -56,8 +56,8 @@ layers:
   - Gui+RIGHT ARROW
   - LCTRL
   - LCTRL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT SHIFT
+  - LEFT SHIFT
   - LEFT ALT
   - Ctl+T
   - '&mkp MB3'
@@ -140,16 +140,16 @@ layers:
   - '-'
   - '='
   - NON US BACKSLASH
-  - (
-  - )
-  - KP 4
-  - KP 5
-  - KP 6
-  - $
-  - '%'
-  - ^
-  - /
-  - QUESTION
+  - {t: (, h: LCTRL}
+  - {t: ), h: LCTRL}
+  - {t: KP 4, h: LEFT SHIFT}
+  - {t: KP 5, h: LEFT SHIFT}
+  - {t: KP 6, h: LEFT ALT}
+  - {t: $, h: RIGHT ALT}
+  - {t: '%', h: RIGHT SHIFT}
+  - {t: ^, h: RIGHT SHIFT}
+  - {t: /, h: RCTRL}
+  - {t: '''', h: RCTRL}
   - '{'
   - '}'
   - KP 1
