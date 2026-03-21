@@ -37,11 +37,11 @@
 5. ビルド
    1. **初回の場合、setupLisM.sh を起動**
       ```bash
-      $zmk-config-LisM ./setupLism.sh
+      $zmk-config-LisM ./setupLisM.sh
       ```
    2. **２回目以降の場合、changeLisM.sh を起動**
       ```bash
-      $zmk-config-LisM ./changeLism.sh
+      $zmk-config-LisM ./changeLisM.sh
       ```
 6. ダウンロードフォルダに格納されている
 
