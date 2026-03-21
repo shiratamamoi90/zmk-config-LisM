@@ -33,7 +33,7 @@ layers:
   - {t: '-', h: RCTRL}
   - {t: ESC, h: Device Layer}
   - {t: TAB, h: Mouse Layer}
-  - {t: CAPSLOCK, h: Mouse Layer}
+  - {t: TAB, h: Mouse Layer}
   - Sft+Gui+4
   - {t: SPACE, h: Number Layer}
   - {t: Alt+`, h: Mark Layer}
@@ -42,7 +42,7 @@ layers:
   - Sft+Gui+4
   - F7
   - F10
-  - {t: DEL, h: Device Layer}
+  - {t: /, h: Device Layer}
   Mouse Layer:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -75,7 +75,7 @@ layers:
   - RIGHT ARROW
   - Ctl+PAGE DOWN
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: CAPSLOCK, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT WIN
@@ -85,7 +85,7 @@ layers:
   - {t: ▽, type: trans}
   - DOWN ARROW
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DEL
   Number Layer:
   - KP NUMLOCK
   - '7'
