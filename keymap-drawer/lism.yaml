@@ -35,8 +35,8 @@ layers:
   - {t: TAB, h: Mouse Layer}
   - {t: TAB, h: Mouse Layer}
   - Sft+Gui+4
-  - {t: SPACE, h: Number Layer}
-  - {t: Alt+`, h: Mark Layer}
+  - {t: Ctl+SPACE, h: Number Layer}
+  - {t: SPACE, h: Mark Layer}
   - {t: ENTER, h: Mark Layer}
   - {t: BS, h: Number Layer}
   - Sft+Gui+4
