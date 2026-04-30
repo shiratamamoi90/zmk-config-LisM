@@ -171,7 +171,7 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - ','
-  - PERIOD
+  - '`'
   Device Layer:
   - ''
   - ''
