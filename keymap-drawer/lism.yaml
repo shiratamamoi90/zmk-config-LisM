@@ -40,8 +40,8 @@ layers:
   - {t: ENTER, h: Mark Layer}
   - {t: BS, h: Number Layer}
   - Sft+Gui+4
-  - F7
-  - F10
+  - HOME
+  - END
   - {t: /, h: Device Layer}
   Mouse Layer:
   - {t: ▽, type: trans}
@@ -126,8 +126,8 @@ layers:
   - ENTER
   - BS
   - {t: ▽, type: trans}
-  - F11
   - F10
+  - F11
   - F12
   Mark Layer:
   - KP NUM
