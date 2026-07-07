@@ -49,11 +49,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+LEFT ARROW
+  - Gui+Sft+C
   - {t: ▽, type: trans}
   - '&mkp MB4'
   - '&mkp MB5'
-  - Gui+RIGHT ARROW
+  - Gui+Sft+T
   - LCTRL
   - LCTRL
   - LEFT SHIFT
@@ -91,13 +91,13 @@ layers:
   - '7'
   - '8'
   - '9'
-  - '='
-  - Gui+LEFT ARROW
+  - Sft+-
+  - Gui+Sft+C
   - F7
   - F8
   - F9
-  - Gui+RIGHT ARROW
-  - {t: '*', h: LCTRL}
+  - Gui+Sft+T
+  - {t: Sft+SQT, h: LCTRL}
   - {t: '4', h: LCTRL}
   - {t: '5', h: LSHIFT}
   - {t: '6', h: LEFT SHIFT}
@@ -111,7 +111,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - +
+  - Sft+SEMI
   - Ctl+PG UP
   - F1
   - F2
@@ -135,33 +135,33 @@ layers:
   - KP 7
   - KP 8
   - KP 9
-  - '&'
-  - '*'
-  - '-'
+  - Sft+7
+  - LBKT
+  - Sft+LBKT
   - '='
-  - NON US BACKSLASH
-  - {t: (, h: LCTRL}
-  - {t: ), h: LCTRL}
+  - Sft+=
+  - {t: Sft+8, h: LCTRL}
+  - {t: Sft+9, h: LCTRL}
   - {t: KP 4, h: LEFT SHIFT}
   - {t: KP 5, h: LEFT SHIFT}
   - {t: KP 6, h: LEFT ALT}
-  - {t: $, h: RIGHT ALT}
-  - {t: '%', h: RIGHT SHIFT}
-  - {t: ^, h: RIGHT SHIFT}
-  - {t: /, h: RCTRL}
-  - {t: '''', h: RCTRL}
-  - '{'
-  - '}'
+  - {t: Sft+4, h: RIGHT ALT}
+  - {t: Sft+5, h: RIGHT SHIFT}
+  - {t: Sft+6, h: RIGHT SHIFT}
+  - {t: Sft+SEMI, h: RCTRL}
+  - {t: Sft+SQT, h: RCTRL}
+  - Sft+RBKT
+  - Sft+NUHS
   - KP 1
   - KP 2
   - KP 3
-  - '!'
-  - '@'
-  - '#'
-  - LESS THAN
-  - GREATER THAN
-  - '['
-  - ']'
+  - Sft+1
+  - Sft+2
+  - Sft+3
+  - Sft+INT1
+  - INT3
+  - RBKT
+  - NUHS
   - KP 0
   - {t: ▽, type: trans}
   - SPACE
@@ -171,7 +171,7 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - ','
-  - '`'
+  - Sft+INT3
   Device Layer:
   - ''
   - ''
