@@ -67,7 +67,7 @@
 &kp Q        &kp W        &kp E             &kp R             &kp T                                        &kp Y            &kp U              &kp I                  &kp O          &kp P
 &mt LCTRL A  &mt LCTRL S  &mt LSHIFT D      &mt LEFT_SHIFT F  &mt LEFT_ALT G                               &mt RIGHT_ALT H  &mt LEFT_SHIFT J   &mt RSHIFT K           &mt LCTRL L    &mt RCTRL SEMICOLON
 &mt LCTRL Z  &mt LCTRL X  &mt LEFT_SHIFT C  &mt LEFT_SHIFT V  &kp B                                        &kp N            &mt RIGHT_SHIFT M  &mt RIGHT_SHIFT COMMA  &mt RCTRL DOT  &mt RCTRL MINUS
-&lt 4 ESC    &lt 1 TAB    &lt 1 TAB         &kp LS(LG(N4))    &lt 2 LC(SPACE)  &lt 3 SPACE    &lt 3 ENTER  &lt 2 BACKSPACE  &kp LS(LG(N4))     &kp HOME               &kp END        &lt 4 SLASH
+&lt 4 TAB    &lt 1 HOME   &lt 1 END         &kp LS(LG(N4))    &lt 2 LC(SPACE)  &lt 3 SPACE    &lt 3 ENTER  &lt 2 BACKSPACE  &kp LS(LG(N4))     &kp HOME               &kp COLON      &lt 4 SLASH
             >;
 
             sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
@@ -79,7 +79,7 @@
 &trans     &trans        &trans          &trans          &trans                                           &kp LG(LS(C))  &trans          &mkp MB4        &mkp MB5         &kp LG(LS(T))
 &kp LCTRL  &kp LCTRL     &kp LEFT_SHIFT  &kp LEFT_SHIFT  &kp LEFT_ALT                                     &kp LC(T)      &mkp MB3        &mkp MB1        &mkp MB2         &kp LC(W)
 &trans     &trans        &trans          &trans          &kp LG(LS(S))                                    &kp RC(PG_UP)  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp RC(PAGE_DOWN)
-&trans     &kp CAPSLOCK  &trans          &trans          &kp LEFT_WIN   &kp LG(LA(SPACE))    &kp LG(TAB)  &kp RIGHT_WIN  &trans          &kp DOWN_ARROW  &trans           &kp DELETE
+&kp ESC    &kp CAPSLOCK  &trans          &trans          &kp LEFT_WIN   &kp LG(LA(SPACE))    &kp LG(TAB)  &kp RIGHT_WIN  &trans          &kp DOWN_ARROW  &trans           &kp DELETE
             >;
 
             sensor-bindings = <&encoder_msc SCRL_RIGHT SCRL_LEFT>;
