@@ -40,7 +40,7 @@ layers:
   - {t: ENTER, h: Mark Layer}
   - {t: BS, h: Number Layer}
   - Sft+Gui+4
-  - HOME
+  - ''
   - ':'
   - {t: /, h: Device Layer}
   Mouse Layer:
@@ -170,7 +170,7 @@ layers:
   - BS
   - {t: ▽, type: trans}
   - ''
-  - ','
+  - ''
   - Sft+INT3
   Device Layer:
   - ''
