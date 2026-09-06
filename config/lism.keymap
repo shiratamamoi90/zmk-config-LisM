@@ -67,7 +67,7 @@
 &kp Q        &kp W        &kp E             &kp R             &kp T                                        &kp Y            &kp U              &kp I                  &kp O          &kp P
 &mt LCTRL A  &mt LCTRL S  &mt LSHIFT D      &mt LEFT_SHIFT F  &mt LEFT_ALT G                               &mt RIGHT_ALT H  &mt LEFT_SHIFT J   &mt RSHIFT K           &mt LCTRL L    &mt RCTRL SEMICOLON
 &mt LCTRL Z  &mt LCTRL X  &mt LEFT_SHIFT C  &mt LEFT_SHIFT V  &kp B                                        &kp N            &mt RIGHT_SHIFT M  &mt RIGHT_SHIFT COMMA  &mt RCTRL DOT  &mt RCTRL MINUS
-&lt 4 TAB    &lt 1 HOME   &lt 1 END         &kp LS(LG(N4))    &lt 2 LC(SPACE)  &lt 3 SPACE    &lt 3 ENTER  &lt 2 BACKSPACE  &kp LS(LG(N4))     &kp HOME               &kp COLON      &lt 4 SLASH
+&lt 4 TAB    &lt 1 HOME   &lt 1 END         &kp LS(LG(N4))    &lt 2 LC(SPACE)  &lt 3 SPACE    &lt 3 ENTER  &lt 2 BACKSPACE  &kp LS(LG(N4))     &none                  &kp COLON      &lt 4 SLASH
             >;
 
             sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
@@ -103,7 +103,7 @@
 &kp KP_NUM              &trans                  &kp KP_NUMBER_7             &kp KP_NUMBER_8             &kp KP_NUMBER_9                                       &kp LS(NUMBER_7)            &kp LBKT                      &kp LS(LBKT)                  &kp EQUAL           &kp LS(EQUAL)
 &mt LCTRL LS(NUMBER_8)  &mt LCTRL LS(NUMBER_9)  &mt LEFT_SHIFT KP_NUMBER_4  &mt LEFT_SHIFT KP_NUMBER_5  &mt LEFT_ALT KP_NUMBER_6                              &mt RIGHT_ALT LS(NUMBER_4)  &mt RIGHT_SHIFT LS(NUMBER_5)  &mt RIGHT_SHIFT LS(NUMBER_6)  &mt RCTRL LS(SEMI)  &mt RCTRL LS(SQT)
 &kp LS(RBKT)            &kp LS(NUHS)            &kp KP_NUMBER_1             &kp KP_NUMBER_2             &kp KP_NUMBER_3                                       &kp LS(NUMBER_1)            &kp LS(NUMBER_2)              &kp LS(NUMBER_3)              &kp LS(INT1)        &kp INT3
-&kp RBKT                &kp NUHS                &kp KP_NUMBER_0             &trans                      &kp SPACE                 &kp LS(GRAVE)    &kp ENTER  &kp BACKSPACE               &trans                        &none                         &kp COMMA           &kp LS(INT3)
+&kp RBKT                &kp NUHS                &kp KP_NUMBER_0             &trans                      &kp SPACE                 &kp LS(GRAVE)    &kp ENTER  &kp BACKSPACE               &trans                        &none                         &none               &kp LS(INT3)
             >;
 
             sensor-bindings = <&encoder_msc SCRL_RIGHT SCRL_LEFT>;
