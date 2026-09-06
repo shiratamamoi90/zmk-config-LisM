@@ -31,9 +31,9 @@ layers:
   - {t: ',', h: RIGHT SHIFT}
   - {t: ., h: RCTRL}
   - {t: '-', h: RCTRL}
-  - {t: ESC, h: Device Layer}
-  - {t: TAB, h: Mouse Layer}
-  - {t: TAB, h: Mouse Layer}
+  - {t: TAB, h: Device Layer}
+  - {t: HOME, h: Mouse Layer}
+  - {t: END, h: Mouse Layer}
   - Sft+Gui+4
   - {t: Ctl+SPACE, h: Number Layer}
   - {t: SPACE, h: Mark Layer}
@@ -41,7 +41,7 @@ layers:
   - {t: BS, h: Number Layer}
   - Sft+Gui+4
   - HOME
-  - END
+  - ':'
   - {t: /, h: Device Layer}
   Mouse Layer:
   - {t: ▽, type: trans}
@@ -74,7 +74,7 @@ layers:
   - UP ARROW
   - RIGHT ARROW
   - Ctl+PAGE DOWN
-  - {t: ▽, type: trans}
+  - ESC
   - {t: CAPSLOCK, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
