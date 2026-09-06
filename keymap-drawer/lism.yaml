@@ -41,7 +41,7 @@ layers:
   - {t: BS, h: Number Layer}
   - Sft+Gui+4
   - ''
-  - ':'
+  - APOSTROPHE
   - {t: /, h: Device Layer}
   Mouse Layer:
   - {t: ▽, type: trans}
