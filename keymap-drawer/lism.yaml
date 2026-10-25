@@ -158,8 +158,8 @@ layers:
   - Sft+1
   - Sft+2
   - Sft+3
-  - Sft+INT1
-  - INT3
+  - INTERNATIONAL 3
+  - Sft+INTERNATIONAL 1
   - RBKT
   - NUHS
   - KP 0
