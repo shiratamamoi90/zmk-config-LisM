@@ -102,7 +102,7 @@
             bindings = <
 &kp KP_NUM              &trans                  &kp KP_NUMBER_7             &kp KP_NUMBER_8             &kp KP_NUMBER_9                                       &kp LS(NUMBER_7)            &kp LBKT                      &kp LS(LBKT)                  &kp EQUAL                &kp LS(EQUAL)
 &mt LCTRL LS(NUMBER_8)  &mt LCTRL LS(NUMBER_9)  &mt LEFT_SHIFT KP_NUMBER_4  &mt LEFT_SHIFT KP_NUMBER_5  &mt LEFT_ALT KP_NUMBER_6                              &mt RIGHT_ALT LS(NUMBER_4)  &mt RIGHT_SHIFT LS(NUMBER_5)  &mt RIGHT_SHIFT LS(NUMBER_6)  &mt RCTRL LS(SEMI)       &mt RCTRL LS(SQT)
-&kp LS(RBKT)            &kp LS(NUHS)            &kp KP_NUMBER_1             &kp KP_NUMBER_2             &kp KP_NUMBER_3                                       &kp LS(NUMBER_1)            &kp LS(NUMBER_2)              &kp LS(NUMBER_3)              &kp LS(INT1)             &kp INT3
+&kp LS(RBKT)            &kp LS(NUHS)            &kp KP_NUMBER_1             &kp KP_NUMBER_2             &kp KP_NUMBER_3                                       &kp LS(NUMBER_1)            &kp LS(NUMBER_2)              &kp LS(NUMBER_3)              &kp INTERNATIONAL_3      &kp LS(INTERNATIONAL_1)
 &kp RBKT                &kp NUHS                &kp KP_NUMBER_0             &trans                      &kp SPACE                 &kp LS(GRAVE)    &kp ENTER  &kp BACKSPACE               &trans                        &none                         &kp LS(INTERNATIONAL_3)  &kp LS(QUESTION)
             >;
 
