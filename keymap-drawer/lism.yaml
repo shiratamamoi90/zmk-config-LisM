@@ -170,8 +170,8 @@ layers:
   - BS
   - {t: ▽, type: trans}
   - ''
-  - ''
-  - Sft+INT3
+  - Sft+INTERNATIONAL 3
+  - Sft+QUESTION
   Device Layer:
   - ''
   - ''
